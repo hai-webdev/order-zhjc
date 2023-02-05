@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 引入公共页头 -->
+  <%= require("html-loader!../common/header/index.html") %>
+    <section class="banner-container">
+      <img src="/public/imgs/product/banner.jpg" alt="">
+    </section>
+    <main class="main-container">
+      <div class="main-content max-center">
+        <%= require("html-loader!../common/aside/index.html") %>
+          <div class="right-layout">
+            <%= require("html-loader!../common/crumbs/index.html") %>
+              <div class="content-container">
+                <h1 class="title" data-aos="fade-up">CE认证</h1>
+                <div class="date" data-aos="fade-up">发布日期：2022-05-23</div>
+                <div class="content" data-aos="fade-up">
+                  <p style="text-indent: 2em; color: #666;margin-bottom: 10px">
+                    近日，欧盟化学品管理局发布通知，REACH法规SVHC新增4种物质，今后要测223项SVHC了。
+                  </p>
+                  <p style="text-indent: 2em; color: #666;margin-bottom: 10px">
+                    SVHC高度关注物质候选清单现在包含 223 个可能危害人类或环境的化学品条目。所有组织有责任安全地管理化学品并向其客户和消费者提供足够的信息。
+                  </p>
+                  <p style="text-indent: 2em; color: #666;margin-bottom: 10px">
+                    赫尔辛基，2022 年 1 月 17
+                    日——四种物质中的一种用于化妆品，并已被添加到候选清单中，因为它具有干扰人体激素的特性。例如，其中两种用于橡胶、润滑剂和密封剂中，因为它们会对生育能力产生负面影响而被包括在内。第四种用于润滑剂和润滑脂中，因为它具有持久性、生物累积性和毒性，因此对环境有害，因此被添加。
+                  </p>
+                  <p style="text-indent: 2em; color: #666;margin-bottom: 10px">
+                    2022 年 1 月 17 日添加到候选名单的条目：
+                  </p>
+                  <p style="text-indent: 2em; color: #666;margin-bottom: 10px">
+                    注意：候选列表中较早的组条目已更改。组条目“十九氟癸酸 (PFDA)
+                    及其钠盐和铵盐”之前包括两个条目：“癸酸、九氟钠盐”和“十九氟癸酸钠”。这两个名称描述了相同的物质并且是等效的，因此从列表中删除了“癸酸，九氟，钠盐”。
+                  </p>
+                  <p style="text-indent: 2em; color: #666;margin-bottom: 10px">
+                    高度关注物质候选清单现在有 223 个条目——其中一些涵盖化学品组，因此受影响化学品的总数更高。
+                  </p>
+                  <p style="text-indent: 2em; color: #666;margin-bottom: 10px">
+                    这些物质将来可能会被列入授权清单。列入该清单意味着禁止使用该物质，除非公司获得欧盟委员会的继续使用授权。
+                  </p>
+                  <p style="text-indent: 2em; color: #666;margin-bottom: 10px">
+                    候选名单的后果
+                  </p>
+                  <p style="text-indent: 2em; color: #666;margin-bottom: 10px">
+                    根据 REACH 法规，当公司的物质（单独、混合物或物品）被列入候选清单时，公司有法律义务。
+                  </p>
+                  <p style="text-indent: 2em; color: #666;margin-bottom: 10px">
+                    任何含有浓度超过 0.1%（重量比）的候选清单物质的物品供应商都必须向其客户和消费者提供足够的信息，以确保安全使用。消费者有权询问供应商他们购买的产品是否含有高度关注的物质。
+                  </p>
+                  <p style="text-indent: 2em; color: #666;margin-bottom: 10px">
+                    物品的进口商和生产商必须在其被列入候选清单之日（2022 年 1 月 17 日）起六个月内通知 ECHA。候选清单上的物质供应商（单独提供或以混合物形式提供）必须向其客户提供安全数据表。
+                  </p>
+                  <p style="text-indent: 2em; color: #666;margin-bottom: 10px">
+                    如果他们的产品含有浓度超过 0.1%（重量比）的高度关注物质，他们还必须根据废物框架指令通知 ECHA。该通知发布在原子能机构网站的 SCIP
+                    数据库中。如您有相关产品需要办理新版的REACH测试报告，可以直接来电咨询中瀚检验机构，我司可以帮助企业一站式办理REACH检测报告，周期更短，高效解决认证难题！
+                  </p>
+                </div>
+              </div>
+          </div>
+      </div>
+
+    </main>
+    <!-- 引入公共页尾 -->
+    <%= require("html-loader!../common/footer/index.html") %>
+</body>
+
+</html>

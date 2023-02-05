@@ -1,0 +1,64 @@
+@import "~@/assets/global.less";
+.contact-container{
+  padding: 75px 0;
+  .contact-box{
+    .title-box{
+      text-align: center;
+      margin-bottom: 50px;
+      .title{
+        font-weight: bold;
+        color:@mainColor;
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
+      .en-title{
+        font-size: 20px;
+        color:#666;
+        margin-bottom: 10px;
+      }
+      .tel{
+        font-size: 24px;
+        color:#333;
+        font-weight: bold;
+      }
+    }
+    .contact-list{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 70px;
+      .contact-item{
+        text-align: center;
+        border-right: 1px solid #eee;
+        &:nth-child(4n + 4),
+        &:last-child{
+          border-right: none;
+        }
+        width: 25%;
+        .title{
+          font-size: 18px;
+          color:#000;
+          margin-bottom: 10px;
+        }
+        .cont{
+          color:#666;
+          p{
+            line-height: 1.8;
+          }
+        }
+      }
+    }
+  }
+  .map-box{
+    .title{
+      font-weight: bold;
+      font-size: 26px;
+      margin-bottom: 25px;
+    }
+    .map{
+      height: 650px;
+    }
+  }
+}
+@import "./1080.less" screen and (max-width:1080px);
+@import "./mobile.less" screen and (max-width:768px);

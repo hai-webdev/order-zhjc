@@ -1,0 +1,100 @@
+.footer-container {
+  .top-layout {
+    padding: 40px 0;
+    .foot-container {
+      flex-wrap: wrap;
+      .row-1 {
+        width: 100%;
+        border-right: none;
+        padding: 0 2%;
+        margin-bottom: 30px;
+        justify-content: flex-start;
+        &.logo-box {
+          width: 100%;
+          border-right: none;
+          order: 1;
+        }
+        &.foot-nav {
+          flex-direction: column;
+          align-items: flex-start;
+          order: 2;
+          .nav-title {
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 15px;
+          }
+          .nav-list {
+            br {
+              display: none;
+            }
+            .nav-item {
+              margin-right: 10px;
+              margin-bottom: 10px;
+              font-size: 14px;
+            }
+          }
+        }
+        &.qrcode {
+          order: 4;
+          .qrcode-list {
+            display: flex;
+            align-items: flex-start;
+            .qrcode-item {
+              text-align: center;
+              &:nth-child(1) {
+                margin-right: 27px;
+              }
+              img {
+                width: 90px;
+                height: 90px;
+                margin-bottom: 14px;
+              }
+              p {
+                font-size: 14px;
+                color: #fff;
+              }
+            }
+          }
+        }
+        &.contact {
+          order: 3;
+          .contact-box {
+            .tel-box {
+              color: #fff;
+              font-size: 20px;
+              margin-bottom: 8px;
+              .icon {
+                font-size: 1.2em;
+                color: #fff;
+              }
+            }
+            .contact-info {
+              font-size: 14px;
+              line-height: 1.5;
+              color: #fff;
+              opacity: 0.5;
+              a {
+                color: inherit;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .copyright {
+    height: 66px;
+    display: flex;
+    align-items: center;
+    color: #999;
+    font-size: 14px;
+    a {
+      color: inherit;
+    }
+    .cert {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+}
