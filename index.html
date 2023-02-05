@@ -1,1 +1,851 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=/favicon.ico><title>salary</title><link href=/static-vue/css/order.a546cb76.css rel=prefetch><link href=/static-vue/js/chunk-52115584.c211dd3a.js rel=prefetch><link href=/static-vue/js/order.cff242da.js rel=prefetch><link href=/static-vue/css/app.9c7b0bc1.css rel=preload as=style><link href=/static-vue/css/chunk-vendors.41bb0ade.css rel=preload as=style><link href=/static-vue/js/app.49ad9357.js rel=preload as=script><link href=/static-vue/js/chunk-vendors.f0644ccc.js rel=preload as=script><link href=/static-vue/css/chunk-vendors.41bb0ade.css rel=stylesheet><link href=/static-vue/css/app.9c7b0bc1.css rel=stylesheet></head><body><noscript><strong>We're sorry but salary doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/static-vue/js/chunk-vendors.f0644ccc.js></script><script src=/static-vue/js/app.49ad9357.js></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Document</title>
+<link href="src/css/common.css" rel="stylesheet"><link href="src/css/index.css" rel="stylesheet"></head>
+
+<body>
+  <!-- 引入公共页头 -->
+  <header class="header-container"> <div class="top-layout"> <div class="top-box min-center"> <div class="left-layout welcome">欢迎光临深圳市中瀚检测有限公司</div> <div class="right-layout"> <a class="link" href="" data-aos="fade-left"> <i class="icon iconfont icon-ditu"></i> <span>地图导航</span> </a> <a class="link on" href="" data-aos="fade-left"> <i class="icon iconfont icon-lianxiren"></i> <span>联系我们</span> </a> <div class="menu"> <span></span><span></span><span></span> </div> </div> </div> </div> <div class="center-layout min-center"> <div class="left-layout logo-box" data-aos="fade-right"> <h1 class="logo"> <a href=""> 中瀚检测 <img src="/public/imgs/common/logo.png" alt="中瀚检测"> </a> </h1> </div> <div class="right-layout" data-aos="fade-left"> <div class="tel-box"> <div class="text"> <i class="icon iconfont icon-tell"></i> <span>咨询热线</span> </div> <a href="tel:18307674732" class="tel">18307674732</a> </div> </div> </div> <nav class="nav-container"> <ul class="nav-list min-center"> <li class="nav-item on" data-aos="fade-left"> <a href="/">中瀚首页</a> </li> <li class="nav-item" data-aos="fade-left"> <a href="product_list.html">全球认证</a> <dl class="nav-sublist"> <dd class="nav-subitem"> <a href="product_list.html">欧盟认证</a> <ul class="nav-sublist2"> <li class="nav-subitem2"> <a href="">栏目一</a> </li> <li class="nav-subitem2"> <a href="">栏目一</a> </li> <li class="nav-subitem2"> <a href="">栏目一</a> </li> <li class="nav-subitem2"> <a href="">栏目一</a> </li> </ul> </dd> <dd class="nav-subitem"> <a href="product_list.html">美国认证</a> </dd> <dd class="nav-subitem"> <a href="product_list.html">加拿大认证</a> </dd> <dd class="nav-subitem"> <a href="product_list.html">澳洲认证</a> </dd> </dl> </li> <li class="nav-item" data-aos="fade-left"> <a href="product_list.html">测试栏目</a> </li> <li class="nav-item" data-aos="fade-left"> <a href="news_list.html">新闻资讯</a> </li> <li class="nav-item" data-aos="fade-left"> <a href="cert-query.html">证书查询</a> </li> <li class="nav-item" data-aos="fade-left"> <a href="about.html">中瀚之魂</a> <dl class="nav-sublist"> <dd class="nav-subitem"> <a href="about.html">关于我们</a> </dd> <dd class="nav-subitem"> <a href="contact.html">联系我们</a> </dd> </dl> </li> </ul> </nav> <nav class="m-nav-container"> <ul class="nav-list"> <li class="nav-item on" data-aos="fade-left"> <div class="title"> <a href="/">中瀚首页</a> </div> </li> <li class="nav-item" data-aos="fade-left"> <div class="title"> <a href="product_list.html">全球认证</a> <i class="icon iconfont icon-arrow"></i> </div> <dl class="nav-sublist"> <dd class="nav-subitem"> <div class="title"> <a href="product_list.html">欧盟认证</a> <i class="icon iconfont icon-arrow"></i> </div> <ul class="nav-sublist2"> <li class="nav-subitem2"> <a href="">栏目一</a> </li> <li class="nav-subitem2"> <a href="">栏目一</a> </li> <li class="nav-subitem2"> <a href="">栏目一</a> </li> <li class="nav-subitem2"> <a href="">栏目一</a> </li> </ul> </dd> <dd class="nav-subitem"> <a href="product_list.html">美国认证</a> </dd> <dd class="nav-subitem"> <a href="product_list.html">加拿大认证</a> </dd> <dd class="nav-subitem"> <a href="product_list.html">澳洲认证</a> </dd> </dl> </li> <li class="nav-item" data-aos="fade-left"> <div class="title"> <a href="product_list.html">测试栏目</a> </div> </li> <li class="nav-item" data-aos="fade-left"> <div class="title"> <a href="news_list.html">新闻资讯</a> </div> </li> <li class="nav-item" data-aos="fade-left"> <div class="title"> <a href="cert-query.html">证书查询</a> </div> </li> <li class="nav-item" data-aos="fade-left"> <div class="title"> <a href="about.html">中瀚之魂</a> <i class="icon iconfont icon-arrow"></i> </div> <dl class="nav-sublist"> <dd class="nav-subitem"> <a href="about.html">关于我们</a> </dd> <dd class="nav-subitem"> <a href="contact.html">联系我们</a> </dd> </dl> </li> </ul> </nav> </header>
+    <section class="banner-container">
+      <div class="banner-swiper swiper-container">
+        <ul class="banner-list swiper-wrapper">
+          <li class="banner-item swiper-slide">
+            <a href="">
+              <img data-aos="zoom-in" data-aos-duration="1500" src="/public/imgs/home/banner.jpg" alt="">
+            </a>
+          </li>
+          <li class="banner-item swiper-slide">
+            <a href="">
+              <img data-aos="zoom-in" data-aos-duration="1500" src="/public/imgs/home/banner.jpg" alt="">
+            </a>
+          </li>
+          <li class="banner-item swiper-slide">
+            <a href="">
+              <img data-aos="zoom-in" data-aos-duration="1500" src="/public/imgs/home/banner.jpg" alt="">
+            </a>
+          </li>
+        </ul>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    <section class="query-container hidden">
+      <div class="query-box min-center">
+        <div class="left-layout" data-aos="fade-right" data-aos-duration="3000ms">
+          <div class="title">热门关键词:</div>
+          <a href="">欧盟认证</a>、
+          <a href="">美国认证</a>、
+          <a href="">加拿大认证</a>、
+          <a href="">澳洲认证</a>
+        </div>
+        <div class="right-layout" data-aos="fade-left" data-aos-duration="3000ms">
+          <form action="" class="form">
+            <input type="text" placeholder="输入您所需要的查询的完整证书编号...">
+            <button type="submit" class="submit">
+              <i class="icon iconfont icon-sousuo"></i>
+              <span>免费证书查询</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="global-map-container module hidden">
+      <div class="title-module">
+        <div class="title" data-aos="fade-up" data-aos-duration="2000ms">全球认证</div>
+        <div class="desc" data-aos="fade-up" data-aos-duration="2000ms">专业的技术支持团队，开启您的认证之旅 拷贝</div>
+      </div>
+      <div id="global-map" class="global-map"></div>
+      <ul class="m-global-map">
+        <li class="m-global-map-item" data-title="中国认证" data-url="product_view.html">
+          <a href="">中国认证</a>
+        </li>
+        <li class="m-global-map-item" data-title="澳洲认证" data-url="product_view.html">
+          <a href="">澳洲认证</a>
+        </li>
+        <li class="m-global-map-item" data-title="亚洲认证" data-url="product_view.html">
+          <a href="">亚洲认证</a>
+        </li>
+        <li class="m-global-map-item" data-title="欧盟认证" data-url="product_view.html">
+          <a href="">欧盟认证</a>
+        </li>
+        <li class="m-global-map-item" data-title="非洲认证" data-url="product_view.html">
+          <a href="">非洲认证</a>
+        </li>
+        <li class="m-global-map-item" data-title="北美认证" data-url="product_view.html">
+          <a href="">北美认证</a>
+        </li>
+        <li class="m-global-map-item" data-title="南美认证" data-url="product_view.html">
+          <a href="">南美认证</a>
+        </li>
+      </ul>
+    </section>
+    <section class="service-container module hidden">
+      <div class="title-module">
+        <div class="title" data-aos="fade-up" data-aos-duration="2000ms">认证服务总览</div>
+        <div class="desc" data-aos="fade-up" data-aos-duration="2000ms">专业的技术支持团队，开启您的认证之旅</div>
+      </div>
+      <ul class="service-list max-center">
+        <li class="service-item bg-module" data-aos="zoom-in-up">
+          <div class="service-box">
+            <div class="service">
+              <img src="/public/imgs/home/service-icon1.png" alt="" class="icon">
+              <div class="title">电池检测</div>
+              <div class="desc">
+                电池检测致力于对电子产品内部电池进行安全与性能检测，消除电池在设计阶段存在的安全隐患。
+              </div>
+            </div>
+          </div>
+          <a class="hover">
+            <div class="service">
+              <img src="/public/imgs/home/service-icon1_hover.png" alt="" class="icon">
+              <div class="title">电池检测</div>
+              <div class="desc">
+                电池检测致力于对电子产品内部电池进行安全与性能检测，消除电池在设计阶段存在的安全隐患。
+              </div>
+            </div>
+          </a>
+          <div class="bg-img">
+            <img src="/public/imgs/home/service-bg1.jpg" alt="">
+          </div>
+        </li>
+        <li class="service-item bg-module" data-aos="zoom-in-up">
+          <div class="service-box">
+            <div class="service">
+              <img src="/public/imgs/home/service-icon1.png" alt="" class="icon">
+              <div class="title">电池检测</div>
+              <div class="desc">
+                电池检测致力于对电子产品内部电池进行安全与性能检测，消除电池在设计阶段存在的安全隐患。
+              </div>
+            </div>
+          </div>
+          <a class="hover">
+            <div class="service">
+              <img src="/public/imgs/home/service-icon1_hover.png" alt="" class="icon">
+              <div class="title">电池检测</div>
+              <div class="desc">
+                电池检测致力于对电子产品内部电池进行安全与性能检测，消除电池在设计阶段存在的安全隐患。
+              </div>
+            </div>
+          </a>
+          <div class="bg-img">
+            <img src="/public/imgs/home/service-bg1.jpg" alt="">
+          </div>
+        </li>
+        <li class="service-item bg-module" data-aos="zoom-in-up">
+          <div class="service-box">
+            <div class="service">
+              <img src="/public/imgs/home/service-icon1.png" alt="" class="icon">
+              <div class="title">电池检测</div>
+              <div class="desc">
+                电池检测致力于对电子产品内部电池进行安全与性能检测，消除电池在设计阶段存在的安全隐患。
+              </div>
+            </div>
+          </div>
+          <a class="hover">
+            <div class="service">
+              <img src="/public/imgs/home/service-icon1_hover.png" alt="" class="icon">
+              <div class="title">电池检测</div>
+              <div class="desc">
+                电池检测致力于对电子产品内部电池进行安全与性能检测，消除电池在设计阶段存在的安全隐患。
+              </div>
+            </div>
+          </a>
+          <div class="bg-img">
+            <img src="/public/imgs/home/service-bg1.jpg" alt="">
+          </div>
+        </li>
+        <li class="service-item bg-module" data-aos="zoom-in-up">
+          <div class="service-box">
+            <div class="service">
+              <img src="/public/imgs/home/service-icon1.png" alt="" class="icon">
+              <div class="title">电池检测</div>
+              <div class="desc">
+                电池检测致力于对电子产品内部电池进行安全与性能检测，消除电池在设计阶段存在的安全隐患。
+              </div>
+            </div>
+          </div>
+          <a class="hover">
+            <div class="service">
+              <img src="/public/imgs/home/service-icon1_hover.png" alt="" class="icon">
+              <div class="title">电池检测</div>
+              <div class="desc">
+                电池检测致力于对电子产品内部电池进行安全与性能检测，消除电池在设计阶段存在的安全隐患。
+              </div>
+            </div>
+          </a>
+          <div class="bg-img">
+            <img src="/public/imgs/home/service-bg1.jpg" alt="">
+          </div>
+        </li>
+        <li class="service-item bg-module" data-aos="zoom-in-up">
+          <div class="service-box">
+            <div class="service">
+              <img src="/public/imgs/home/service-icon1.png" alt="" class="icon">
+              <div class="title">电池检测</div>
+              <div class="desc">
+                电池检测致力于对电子产品内部电池进行安全与性能检测，消除电池在设计阶段存在的安全隐患。
+              </div>
+            </div>
+          </div>
+          <a class="hover">
+            <div class="service">
+              <img src="/public/imgs/home/service-icon1_hover.png" alt="" class="icon">
+              <div class="title">电池检测</div>
+              <div class="desc">
+                电池检测致力于对电子产品内部电池进行安全与性能检测，消除电池在设计阶段存在的安全隐患。
+              </div>
+            </div>
+          </a>
+          <div class="bg-img">
+            <img src="/public/imgs/home/service-bg1.jpg" alt="">
+          </div>
+        </li>
+        <li class="service-item bg-module" data-aos="zoom-in-up">
+          <div class="service-box">
+            <div class="service">
+              <img src="/public/imgs/home/service-icon1.png" alt="" class="icon">
+              <div class="title">电池检测</div>
+              <div class="desc">
+                电池检测致力于对电子产品内部电池进行安全与性能检测，消除电池在设计阶段存在的安全隐患。
+              </div>
+            </div>
+          </div>
+          <a class="hover">
+            <div class="service">
+              <img src="/public/imgs/home/service-icon1_hover.png" alt="" class="icon">
+              <div class="title">电池检测</div>
+              <div class="desc">
+                电池检测致力于对电子产品内部电池进行安全与性能检测，消除电池在设计阶段存在的安全隐患。
+              </div>
+            </div>
+          </a>
+          <div class="bg-img">
+            <img src="/public/imgs/home/service-bg1.jpg" alt="">
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="industry-container module hidden" style="background-image: url(/public/imgs/home/industry-bg.png);">
+      <div class="title-module">
+        <div class="title" data-aos="fade-up" data-aos-duration="2000ms">认证行业</div>
+        <div class="desc" data-aos="fade-up" data-aos-duration="2000ms">专业的技术支持团队，开启您的认证之旅</div>
+      </div>
+      <ul class="industry-list max-center">
+        <li class="industry-item" data-aos="zoom-out-up">
+          <a href="" class="industry-box">
+            <img src="/public/imgs/home/industry-img1.jpg" alt="" class="img">
+            <div class="title">IT信息认证</div>
+          </a>
+        </li>
+        <li class="industry-item" data-aos="zoom-out-up">
+          <a href="" class="industry-box">
+            <img src="/public/imgs/home/industry-img1.jpg" alt="" class="img">
+            <div class="title">IT信息认证</div>
+          </a>
+        </li>
+        <li class="industry-item" data-aos="zoom-out-up">
+          <a href="" class="industry-box">
+            <img src="/public/imgs/home/industry-img1.jpg" alt="" class="img">
+            <div class="title">IT信息认证</div>
+          </a>
+        </li>
+        <li class="industry-item" data-aos="zoom-out-up">
+          <a href="" class="industry-box">
+            <img src="/public/imgs/home/industry-img1.jpg" alt="" class="img">
+            <div class="title">IT信息认证</div>
+          </a>
+        </li>
+        <li class="industry-item" data-aos="zoom-out-up">
+          <a href="" class="industry-box">
+            <img src="/public/imgs/home/industry-img1.jpg" alt="" class="img">
+            <div class="title">IT信息认证</div>
+          </a>
+        </li>
+        <li class="industry-item" data-aos="zoom-out-up">
+          <a href="" class="industry-box">
+            <img src="/public/imgs/home/industry-img1.jpg" alt="" class="img">
+            <div class="title">IT信息认证</div>
+          </a>
+        </li>
+        <li class="industry-item" data-aos="zoom-out-up">
+          <a href="" class="industry-box">
+            <img src="/public/imgs/home/industry-img1.jpg" alt="" class="img">
+            <div class="title">IT信息认证</div>
+          </a>
+        </li>
+        <li class="industry-item" data-aos="zoom-out-up">
+          <a href="" class="industry-box">
+            <img src="/public/imgs/home/industry-img1.jpg" alt="" class="img">
+            <div class="title">IT信息认证</div>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="detect-container module hidden" style="background-image: url(/public/imgs/home/detect-bg.png);">
+      <div class="title-module">
+        <div class="title" data-aos="fade-up" data-aos-duration="2000ms">一站式检测认证</div>
+        <div class="desc" data-aos="fade-up" data-aos-duration="2000ms">高率的业务流程</div>
+      </div>
+      <ul class="detect-list max-center">
+        <li class="detect-item" data-aos="zoom-in-up">
+          <a href="" class="detect-box">
+            <div class="icon">
+              <img class="img" src="/public/imgs/home/detect-icon1.png" alt="">
+              <img class="hover" src="/public/imgs/home/detect-icon1_hover.png" alt="">
+            </div>
+            <div class="title">前期咨询</div>
+            <div class="desc">客户前期咨询</div>
+          </a>
+        </li>
+        <li class="detect-item" data-aos="zoom-in-up">
+          <a href="" class="detect-box">
+            <div class="icon">
+              <img class="img" src="/public/imgs/home/detect-icon1.png" alt="">
+              <img class="hover" src="/public/imgs/home/detect-icon1_hover.png" alt="">
+            </div>
+            <div class="title">文件准备</div>
+            <div class="desc">按照 指定要求准备材料</div>
+          </a>
+        </li>
+        <li class="detect-item" data-aos="zoom-in-up">
+          <a href="" class="detect-box">
+            <div class="icon">
+              <img class="img" src="/public/imgs/home/detect-icon1.png" alt="">
+              <img class="hover" src="/public/imgs/home/detect-icon1_hover.png" alt="">
+            </div>
+            <div class="title">产品测试</div>
+            <div class="desc">产品送实验室检测</div>
+          </a>
+        </li>
+        <li class="detect-item" data-aos="zoom-in-up">
+          <a href="" class="detect-box">
+            <div class="icon">
+              <img class="img" src="/public/imgs/home/detect-icon1.png" alt="">
+              <img class="hover" src="/public/imgs/home/detect-icon1_hover.png" alt="">
+            </div>
+            <div class="title">审核</div>
+            <div class="desc">认证机构审核测试报告</div>
+          </a>
+        </li>
+        <li class="detect-item" data-aos="zoom-in-up">
+          <a href="" class="detect-box">
+            <div class="icon">
+              <img class="img" src="/public/imgs/home/detect-icon1.png" alt="">
+              <img class="hover" src="/public/imgs/home/detect-icon1_hover.png" alt="">
+            </div>
+            <div class="title">颁发证书</div>
+            <div class="desc">审核通过颁发证书</div>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="choose-container module hidden" id="choose-vue">
+      <div class="title-module">
+        <div class="title" data-aos="fade-up" data-aos-duration="2000ms">选择我们的理由</div>
+        <div class="desc" data-aos="fade-up" data-aos-duration="2000ms">世界再大而您选择我，因为专注所以专业</div>
+      </div>
+      <div class="choose-swiper swiper-container max-center">
+        <ul class="choose-list swiper-wrapper">
+          <li class="choose-item swiper-slide" data-aos="zoom-in-up">
+            <img src="/public/imgs/home/choose-img1.jpg" alt="">
+          </li>
+          <li class="choose-item swiper-slide">
+            <img src="/public/imgs/home/choose-img1.jpg" alt="">
+          </li>
+          <li class="choose-item swiper-slide">
+            <img src="/public/imgs/home/choose-img1.jpg" alt="">
+          </li>
+          <li class="choose-item swiper-slide">
+            <img src="/public/imgs/home/choose-img1.jpg" alt="">
+          </li>
+          <li class="choose-item swiper-slide">
+            <img src="/public/imgs/home/choose-img1.jpg" alt="">
+          </li>
+        </ul>
+      </div>
+      <ul class="choose-icon-list max-center">
+        <li data-aos="fade-up" data-aos-duration="2000ms" class="choose-icon-item on">
+          <div class="choose-box">
+            <div class="icon">
+              <img src="/public/imgs/home/choose-icon1.png" alt="">
+            </div>
+            <div class="title">价格体系</div>
+          </div>
+        </li>
+        <li data-aos="fade-up" data-aos-duration="2000ms" class="choose-icon-item">
+          <div class="choose-box">
+            <div class="icon">
+              <img src="/public/imgs/home/choose-icon1.png" alt="">
+            </div>
+            <div class="title">价格体系</div>
+          </div>
+        </li>
+        <li data-aos="fade-up" data-aos-duration="2000ms" class="choose-icon-item">
+          <div class="choose-box">
+            <div class="icon">
+              <img src="/public/imgs/home/choose-icon1.png" alt="">
+            </div>
+            <div class="title">价格体系</div>
+          </div>
+        </li>
+        <li data-aos="fade-up" data-aos-duration="2000ms" class="choose-icon-item">
+          <div class="choose-box">
+            <div class="icon">
+              <img src="/public/imgs/home/choose-icon1.png" alt="">
+            </div>
+            <div class="title">价格体系</div>
+          </div>
+        </li>
+        <li data-aos="fade-up" data-aos-duration="2000ms" class="choose-icon-item">
+          <div class="choose-box">
+            <div class="icon">
+              <img src="/public/imgs/home/choose-icon1.png" alt="">
+            </div>
+            <div class="title">价格体系</div>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+    <section class="laboratory-container module hidden">
+      <div class="title-module">
+        <div class="title" data-aos="fade-up" data-aos-duration="2000ms">实验室展示</div>
+        <div class="desc" data-aos="fade-up" data-aos-duration="2000ms">欧盟直接授权实验室，证书申请快，尽可能在工厂就近的实验室，测试时间更短</div>
+      </div>
+      <div class="laboratory-tab-swiper swiper-container max-center">
+        <ul class="laboratory-tab-list swiper-wrapper">
+          <li class="laboratory-tab-item swiper-slide" data-aos="fade-up" data-aos-duration="2000ms">
+            <div class="icon">
+              <img src="/public/imgs/home/laboratory-icon1.png" alt="" class="img">
+              <img src="/public/imgs/home/laboratory-icon1_hover.png" alt="" class="hover">
+            </div>
+            <div class="title">ESD静电实验室1</div>
+          </li>
+          <li class="laboratory-tab-item swiper-slide" data-aos="fade-up" data-aos-duration="2000ms">
+            <div class="icon">
+              <img src="/public/imgs/home/laboratory-icon1.png" alt="" class="img">
+              <img src="/public/imgs/home/laboratory-icon1_hover.png" alt="" class="hover">
+            </div>
+            <div class="title">ESD静电实验室2</div>
+          </li>
+          <li class="laboratory-tab-item swiper-slide" data-aos="fade-up" data-aos-duration="2000ms">
+            <div class="icon">
+              <img src="/public/imgs/home/laboratory-icon1.png" alt="" class="img">
+              <img src="/public/imgs/home/laboratory-icon1_hover.png" alt="" class="hover">
+            </div>
+            <div class="title">ESD静电实验室</div>
+          </li>
+          <li class="laboratory-tab-item swiper-slide" data-aos="fade-up" data-aos-duration="2000ms">
+            <div class="icon">
+              <img src="/public/imgs/home/laboratory-icon1.png" alt="" class="img">
+              <img src="/public/imgs/home/laboratory-icon1_hover.png" alt="" class="hover">
+            </div>
+            <div class="title">ESD静电实验室</div>
+          </li>
+          <li class="laboratory-tab-item swiper-slide" data-aos="fade-up" data-aos-duration="2000ms">
+            <div class="icon">
+              <img src="/public/imgs/home/laboratory-icon1.png" alt="" class="img">
+              <img src="/public/imgs/home/laboratory-icon1_hover.png" alt="" class="hover">
+            </div>
+            <div class="title">ESD静电实验室</div>
+          </li>
+          <li class="laboratory-tab-item swiper-slide" data-aos="fade-up" data-aos-duration="2000ms">
+            <div class="icon">
+              <img src="/public/imgs/home/laboratory-icon1.png" alt="" class="img">
+              <img src="/public/imgs/home/laboratory-icon1_hover.png" alt="" class="hover">
+            </div>
+            <div class="title">ESD静电实验室</div>
+          </li>
+          <li class="laboratory-tab-item swiper-slide" data-aos="fade-up" data-aos-duration="2000ms">
+            <div class="icon">
+              <img src="/public/imgs/home/laboratory-icon1.png" alt="" class="img">
+              <img src="/public/imgs/home/laboratory-icon1_hover.png" alt="" class="hover">
+            </div>
+            <div class="title">ESD静电实验室</div>
+          </li>
+          <li class="laboratory-tab-item swiper-slide" data-aos="fade-up" data-aos-duration="2000ms">
+            <div class="icon">
+              <img src="/public/imgs/home/laboratory-icon1.png" alt="" class="img">
+              <img src="/public/imgs/home/laboratory-icon1_hover.png" alt="" class="hover">
+            </div>
+            <div class="title">ESD静电实验室</div>
+          </li>
+        </ul>
+      </div>
+      <div class="laboratory-swiper swiper-container max-center">
+        <ul class="laboratory-list swiper-wrapper">
+          <li class="laboratory-item swiper-slide">
+            <div class="img" data-aos="fade-up" data-aos-duration="2000ms">
+              <img src="/public/imgs/home/laboratory-img1.jpg" alt="">
+            </div>
+            <div class="text">
+              <div class="cont" data-aos="fade-up" data-aos-duration="2000ms">
+                <h2>EMC电磁兼容测试项目</h2>
+                <p>EMI电磁干扰、传导干扰、谐波、电压闪烁、ESD静电、RS辐射敏感度、EFT快速脉冲、Surge雷击浪涌、cs传导敏感度、电压跌落、抗干扰</p>
+                <h2>LVD安规测试项目</h2>
+                <p>
+                  功率测试、温升测试、湿度测试、灼热丝实验态测试、过载测试、漏电流测试、耐压测试、接地电阻测试、电源线拉力测试、稳定性测试、插头扭矩测试、冲击测试、插头放电测试、元器件破坏测试、
+                  工作电压测试、马达堵转测试、高低温测试、滚筒跌落测试、绝缘电阻测试、球压测试、螺丝扭力测试、针焰试验
+                </p>
+              </div>
+              <a href="" class="more more-btn" data-aos="fade-up" data-aos-duration="2000ms">查看更多</a>
+            </div>
+          </li>
+          <li class="laboratory-item swiper-slide">
+            <div class="img">
+              <img src="/public/imgs/home/laboratory-img1.jpg" alt="">
+            </div>
+            <div class="text">
+              <div class="cont">
+                <h2>EMC电磁兼容测试项目</h2>
+                <p>EMI电磁干扰、传导干扰、谐波、电压闪烁、ESD静电、RS辐射敏感度、EFT快速脉冲、Surge雷击浪涌、cs传导敏感度、电压跌落、抗干扰</p>
+                <h2>LVD安规测试项目</h2>
+                <p>
+                  功率测试、温升测试、湿度测试、灼热丝实验态测试、过载测试、漏电流测试、耐压测试、接地电阻测试、电源线拉力测试、稳定性测试、插头扭矩测试、冲击测试、插头放电测试、元器件破坏测试、
+                  工作电压测试、马达堵转测试、高低温测试、滚筒跌落测试、绝缘电阻测试、球压测试、螺丝扭力测试、针焰试验
+                </p>
+              </div>
+              <a href="" class="more">查看更多</a>
+            </div>
+          </li>
+          <li class="laboratory-item swiper-slide">
+            <div class="img">
+              <img src="/public/imgs/home/laboratory-img1.jpg" alt="">
+            </div>
+            <div class="text">
+              <div class="cont">
+                <h2>EMC电磁兼容测试项目</h2>
+                <p>EMI电磁干扰、传导干扰、谐波、电压闪烁、ESD静电、RS辐射敏感度、EFT快速脉冲、Surge雷击浪涌、cs传导敏感度、电压跌落、抗干扰</p>
+                <h2>LVD安规测试项目</h2>
+                <p>
+                  功率测试、温升测试、湿度测试、灼热丝实验态测试、过载测试、漏电流测试、耐压测试、接地电阻测试、电源线拉力测试、稳定性测试、插头扭矩测试、冲击测试、插头放电测试、元器件破坏测试、
+                  工作电压测试、马达堵转测试、高低温测试、滚筒跌落测试、绝缘电阻测试、球压测试、螺丝扭力测试、针焰试验
+                </p>
+              </div>
+              <a href="" class="more">查看更多</a>
+            </div>
+          </li>
+          <li class="laboratory-item swiper-slide">
+            <div class="img">
+              <img src="/public/imgs/home/laboratory-img1.jpg" alt="">
+            </div>
+            <div class="text">
+              <div class="cont">
+                <h2>EMC电磁兼容测试项目</h2>
+                <p>EMI电磁干扰、传导干扰、谐波、电压闪烁、ESD静电、RS辐射敏感度、EFT快速脉冲、Surge雷击浪涌、cs传导敏感度、电压跌落、抗干扰</p>
+                <h2>LVD安规测试项目</h2>
+                <p>
+                  功率测试、温升测试、湿度测试、灼热丝实验态测试、过载测试、漏电流测试、耐压测试、接地电阻测试、电源线拉力测试、稳定性测试、插头扭矩测试、冲击测试、插头放电测试、元器件破坏测试、
+                  工作电压测试、马达堵转测试、高低温测试、滚筒跌落测试、绝缘电阻测试、球压测试、螺丝扭力测试、针焰试验
+                </p>
+              </div>
+              <a href="" class="more">查看更多</a>
+            </div>
+          </li>
+          <li class="laboratory-item swiper-slide">
+            <div class="img">
+              <img src="/public/imgs/home/laboratory-img1.jpg" alt="">
+            </div>
+            <div class="text">
+              <div class="cont">
+                <h2>EMC电磁兼容测试项目</h2>
+                <p>EMI电磁干扰、传导干扰、谐波、电压闪烁、ESD静电、RS辐射敏感度、EFT快速脉冲、Surge雷击浪涌、cs传导敏感度、电压跌落、抗干扰</p>
+                <h2>LVD安规测试项目</h2>
+                <p>
+                  功率测试、温升测试、湿度测试、灼热丝实验态测试、过载测试、漏电流测试、耐压测试、接地电阻测试、电源线拉力测试、稳定性测试、插头扭矩测试、冲击测试、插头放电测试、元器件破坏测试、
+                  工作电压测试、马达堵转测试、高低温测试、滚筒跌落测试、绝缘电阻测试、球压测试、螺丝扭力测试、针焰试验
+                </p>
+              </div>
+              <a href="" class="more">查看更多</a>
+            </div>
+          </li>
+          <li class="laboratory-item swiper-slide">
+            <div class="img">
+              <img src="/public/imgs/home/laboratory-img1.jpg" alt="">
+            </div>
+            <div class="text">
+              <div class="cont">
+                <h2>EMC电磁兼容测试项目</h2>
+                <p>EMI电磁干扰、传导干扰、谐波、电压闪烁、ESD静电、RS辐射敏感度、EFT快速脉冲、Surge雷击浪涌、cs传导敏感度、电压跌落、抗干扰</p>
+                <h2>LVD安规测试项目</h2>
+                <p>
+                  功率测试、温升测试、湿度测试、灼热丝实验态测试、过载测试、漏电流测试、耐压测试、接地电阻测试、电源线拉力测试、稳定性测试、插头扭矩测试、冲击测试、插头放电测试、元器件破坏测试、
+                  工作电压测试、马达堵转测试、高低温测试、滚筒跌落测试、绝缘电阻测试、球压测试、螺丝扭力测试、针焰试验
+                </p>
+              </div>
+              <a href="" class="more">查看更多</a>
+            </div>
+          </li>
+          <li class="laboratory-item swiper-slide">
+            <div class="img">
+              <img src="/public/imgs/home/laboratory-img1.jpg" alt="">
+            </div>
+            <div class="text">
+              <div class="cont">
+                <h2>EMC电磁兼容测试项目</h2>
+                <p>EMI电磁干扰、传导干扰、谐波、电压闪烁、ESD静电、RS辐射敏感度、EFT快速脉冲、Surge雷击浪涌、cs传导敏感度、电压跌落、抗干扰</p>
+                <h2>LVD安规测试项目</h2>
+                <p>
+                  功率测试、温升测试、湿度测试、灼热丝实验态测试、过载测试、漏电流测试、耐压测试、接地电阻测试、电源线拉力测试、稳定性测试、插头扭矩测试、冲击测试、插头放电测试、元器件破坏测试、
+                  工作电压测试、马达堵转测试、高低温测试、滚筒跌落测试、绝缘电阻测试、球压测试、螺丝扭力测试、针焰试验
+                </p>
+              </div>
+              <a href="" class="more">查看更多</a>
+            </div>
+          </li>
+          <li class="laboratory-item swiper-slide">
+            <div class="img">
+              <img src="/public/imgs/home/laboratory-img1.jpg" alt="">
+            </div>
+            <div class="text">
+              <div class="cont">
+                <h2>EMC电磁兼容测试项目</h2>
+                <p>EMI电磁干扰、传导干扰、谐波、电压闪烁、ESD静电、RS辐射敏感度、EFT快速脉冲、Surge雷击浪涌、cs传导敏感度、电压跌落、抗干扰</p>
+                <h2>LVD安规测试项目</h2>
+                <p>
+                  功率测试、温升测试、湿度测试、灼热丝实验态测试、过载测试、漏电流测试、耐压测试、接地电阻测试、电源线拉力测试、稳定性测试、插头扭矩测试、冲击测试、插头放电测试、元器件破坏测试、
+                  工作电压测试、马达堵转测试、高低温测试、滚筒跌落测试、绝缘电阻测试、球压测试、螺丝扭力测试、针焰试验
+                </p>
+              </div>
+              <a href="" class="more">查看更多</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="about-container hidden">
+      <div class="left-layout" data-aos="fade-right">
+        <img src="/public/imgs/home/about.jpg" alt="">
+      </div>
+      <div class="right-layout">
+        <div class="text">
+          <div class="title" data-aos="fade-left">走进中瀚</div>
+          <div class="info" data-aos="fade-left">专业的第三方检测认证机构</div>
+          <div class="line" data-aos="fade-left"></div>
+          <div class="cont" data-aos="fade-left">
+            <p>
+              深圳市中鉴检测技术有限公司（简称：中鉴检测，英文：CCTI
+              TEST）是一家专业从事电子电器产品、消费产品和工业用品检测的第三方检测认证机构。公司总部位于宝安福永，客户群体遍及消费电子产品、音视频产品、家电、电池、灯具、玩具、安防、机械、纺织品、鞋材、食品、汽车电子、医疗器械等领域，可在全球范围内为客户提供一站式检测认证服务。
+            </p>
+            <p>
+              打造中国制造，让世界更值得信赖！公司自成立以来，就秉持着“专业公正，精心快捷”的服务理念去用心服务每个客户...
+            </p>
+          </div>
+          <a href="" class="more more-btn" data-aos="zoom-in">查看更多</a>
+        </div>
+      </div>
+    </section>
+    <section class="company-container hidden" style="background-image:url(/public/imgs/home/compang-bg.png)">
+      <ul class="company-list min-center">
+        <li class="company-item" data-aos="fade-up">
+          <div class="info">12</div>
+          <div class="title">行业从业经验</div>
+        </li>
+        <li class="company-item" data-aos="fade-up">
+          <div class="info">CNAS</div>
+          <div class="title">中国合格评定国家认可委员会认可实验室</div>
+        </li>
+        <li class="company-item" data-aos="fade-up">
+          <div class="info">CNCA</div>
+          <div class="title">中国国家认证认可监督管理委员会批准的认证咨询机构</div>
+        </li>
+        <li class="company-item" data-aos="fade-up">
+          <div class="info">CMA</div>
+          <div class="title">市场监督管理局资质认定实验室</div>
+        </li>
+      </ul>
+    </section>
+    <section class="news-container module hidden">
+      <div class="title-module">
+        <div class="title" data-aos="fade-up" data-aos-duration="2000ms">新闻中心</div>
+        <div class="desc" data-aos="fade-up" data-aos-duration="2000ms">欧盟直接授权实验室，证书申请快，尽可能在工厂就近的实验室，测试时间更短</div>
+      </div>
+      <nav class="news-cate-list max-center">
+        <a href="" class="news-cate-item on">公司动态</a>
+        <a href="" class="news-cate-item">行业资讯</a>
+      </nav>
+      <div class="news-box max-center">
+        <div class="news-box-list">
+          <div class="news-box-item">
+            <div class="left-layout" data-aos="fade-right">
+              <a href="">
+                <div class="img">
+                  <!-- <img src="/public/imgs/home/news-img1.jpg" alt=""> -->
+                  <div class="date">
+                    <div class="day">07</div>
+                    <div class="time">2022-09</div>
+                  </div>
+                </div>
+                <div class="text">
+                  <div class="title">电线电缆CPR认证</div>
+                  <div class="desc">
+                    电线CPR认证，电缆CPR认证，电线电缆CPR认证，光缆CPR认证 EN50575电缆CE认证检测适用范围及检测项目 随着电线电线CPR认证，电缆CPR认证，电线电缆CPR认证，光缆CPR认证
+                    EN50575电缆CE认证检测适用范围及检测项目 随着电线...
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="right-layout">
+              <ul class="news-list" data-aos="fade-left">
+                <li class="news-item">
+                  <div class="title">意大利ECM1282公告号认证机构</div>
+                  <div class="desc">
+                    电线CPR认证，电缆CPR认证，电线电缆CPR认证，光缆CPR认证EN50575电缆CE认证检测适用范围及检测项目 随着电线...
+                  </div>
+                  <div class="other">
+                    <div class="date">2022.05.22</div>
+                    <a href="" class="more">MORE</a>
+                  </div>
+                </li>
+                <li class="news-item">
+                  <div class="title">意大利ECM1282公告号认证机构</div>
+                  <div class="desc">
+                    电线CPR认证，电缆CPR认证，电线电缆CPR认证，光缆CPR认证EN50575电缆CE认证检测适用范围及检测项目 随着电线...
+                  </div>
+                  <div class="other">
+                    <div class="date">2022.05.22</div>
+                    <a href="" class="more">MORE</a>
+                  </div>
+                </li>
+                <li class="news-item">
+                  <div class="title">意大利ECM1282公告号认证机构</div>
+                  <div class="desc">
+                    电线CPR认证，电缆CPR认证，电线电缆CPR认证，光缆CPR认证EN50575电缆CE认证检测适用范围及检测项目 随着电线...
+                  </div>
+                  <div class="other">
+                    <div class="date">2022.05.22</div>
+                    <a href="" class="more">MORE</a>
+                  </div>
+                </li>
+                <li class="news-item">
+                  <div class="title">意大利ECM1282公告号认证机构</div>
+                  <div class="desc">
+                    电线CPR认证，电缆CPR认证，电线电缆CPR认证，光缆CPR认证EN50575电缆CE认证检测适用范围及检测项目 随着电线...
+                  </div>
+                  <div class="other">
+                    <div class="date">2022.05.22</div>
+                    <a href="" class="more">MORE</a>
+                  </div>
+                </li>
+                <li class="news-item">
+                  <div class="title">意大利ECM1282公告号认证机构</div>
+                  <div class="desc">
+                    电线CPR认证，电缆CPR认证，电线电缆CPR认证，光缆CPR认证EN50575电缆CE认证检测适用范围及检测项目 随着电线...
+                  </div>
+                  <div class="other">
+                    <div class="date">2022.05.22</div>
+                    <a href="" class="more">MORE</a>
+                  </div>
+                </li>
+                <li class="news-item">
+                  <div class="title">意大利ECM1282公告号认证机构</div>
+                  <div class="desc">
+                    电线CPR认证，电缆CPR认证，电线电缆CPR认证，光缆CPR认证EN50575电缆CE认证检测适用范围及检测项目 随着电线...
+                  </div>
+                  <div class="other">
+                    <div class="date">2022.05.22</div>
+                    <a href="" class="more">MORE</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="news-box-item">
+            <div class="left-layout" data-aos="fade-right">
+              <a href="">
+                <div class="img">
+                  <!-- <img src="/public/imgs/home/news-img1.jpg" alt=""> -->
+                  <div class="date">
+                    <div class="day">07</div>
+                    <div class="time">2022-09</div>
+                  </div>
+                </div>
+                <div class="text">
+                  <div class="title">电线电缆CPR认证</div>
+                  <div class="desc">
+                    电线CPR认证，电缆CPR认证，电线电缆CPR认证，光缆CPR认证 EN50575电缆CE认证检测适用范围及检测项目 随着电线电线CPR认证，电缆CPR认证，电线电缆CPR认证，光缆CPR认证
+                    EN50575电缆CE认证检测适用范围及检测项目 随着电线...
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="right-layout">
+              <ul class="news-list" data-aos="fade-left">
+                <li class="news-item">
+                  <div class="title">意大利ECM1282公告号认证机构</div>
+                  <div class="desc">
+                    电线CPR认证，电缆CPR认证，电线电缆CPR认证，光缆CPR认证EN50575电缆CE认证检测适用范围及检测项目 随着电线...
+                  </div>
+                  <div class="other">
+                    <div class="date">2022.05.22</div>
+                    <a href="" class="more">MORE</a>
+                  </div>
+                </li>
+                <li class="news-item">
+                  <div class="title">意大利ECM1282公告号认证机构</div>
+                  <div class="desc">
+                    电线CPR认证，电缆CPR认证，电线电缆CPR认证，光缆CPR认证EN50575电缆CE认证检测适用范围及检测项目 随着电线...
+                  </div>
+                  <div class="other">
+                    <div class="date">2022.05.22</div>
+                    <a href="" class="more">MORE</a>
+                  </div>
+                </li>
+                <li class="news-item">
+                  <div class="title">意大利ECM1282公告号认证机构</div>
+                  <div class="desc">
+                    电线CPR认证，电缆CPR认证，电线电缆CPR认证，光缆CPR认证EN50575电缆CE认证检测适用范围及检测项目 随着电线...
+                  </div>
+                  <div class="other">
+                    <div class="date">2022.05.22</div>
+                    <a href="" class="more">MORE</a>
+                  </div>
+                </li>
+                <li class="news-item">
+                  <div class="title">意大利ECM1282公告号认证机构</div>
+                  <div class="desc">
+                    电线CPR认证，电缆CPR认证，电线电缆CPR认证，光缆CPR认证EN50575电缆CE认证检测适用范围及检测项目 随着电线...
+                  </div>
+                  <div class="other">
+                    <div class="date">2022.05.22</div>
+                    <a href="" class="more">MORE</a>
+                  </div>
+                </li>
+                <li class="news-item">
+                  <div class="title">意大利ECM1282公告号认证机构</div>
+                  <div class="desc">
+                    电线CPR认证，电缆CPR认证，电线电缆CPR认证，光缆CPR认证EN50575电缆CE认证检测适用范围及检测项目 随着电线...
+                  </div>
+                  <div class="other">
+                    <div class="date">2022.05.22</div>
+                    <a href="" class="more">MORE</a>
+                  </div>
+                </li>
+                <li class="news-item">
+                  <div class="title">意大利ECM1282公告号认证机构</div>
+                  <div class="desc">
+                    电线CPR认证，电缆CPR认证，电线电缆CPR认证，光缆CPR认证EN50575电缆CE认证检测适用范围及检测项目 随着电线...
+                  </div>
+                  <div class="other">
+                    <div class="date">2022.05.22</div>
+                    <a href="" class="more">MORE</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 引入公共页尾 -->
+    <footer class="footer-container"> <div class="links-container"> <div class="link-wrapper min-center"> <div class="title">友情链接：</div> <ul class="links-list"> <li class="link-item"> <a href="">友情链接1</a> </li> <li class="link-item"> <a href="">友情链接2</a> </li> <li class="link-item"> <a href="">友情链接3</a> </li> <li class="link-item"> <a href="">友情链接4</a> </li> <li class="link-item"> <a href="">友情链接5</a> </li> <li class="link-item"> <a href="">友情链接6</a> </li> <li class="link-item"> <a href="">友情链接7</a> </li> <li class="link-item"> <a href="">友情链接8</a> </li> <li class="link-item"> <a href="">友情链接9</a> </li> <li class="link-item"> <a href="">友情链接10</a> </li> <li class="link-item"> <a href="">友情链接11</a> </li> <li class="link-item"> <a href="">友情链接12</a> </li> <li class="link-item"> <a href="">友情链接1</a> </li> <li class="link-item"> <a href="">友情链接2</a> </li> <li class="link-item"> <a href="">友情链接3</a> </li> <li class="link-item"> <a href="">友情链接4</a> </li> <li class="link-item"> <a href="">友情链接5</a> </li> <li class="link-item"> <a href="">友情链接6</a> </li> <li class="link-item"> <a href="">友情链接7</a> </li> <li class="link-item"> <a href="">友情链接8</a> </li> <li class="link-item"> <a href="">友情链接9</a> </li> <li class="link-item"> <a href="">友情链接10</a> </li> <li class="link-item"> <a href="">友情链接11</a> </li> <li class="link-item"> <a href="">友情链接12</a> </li> </ul> </div> </div> <div class="top-layout"> <div class="foot-container min-center"> <div class="row-1 logo-box"> <a href="" class="logo" data-aos="fade-right"> <img src="/public/imgs/common/logo_white.png" alt=""> </a> </div> <div class="row-1 foot-nav"> <div class="foot-nav-box"> <div class="nav-title" data-aos="fade-up">网站导航</div> <nav class="nav-list"> <a class="nav-item" href="" data-aos="fade-up">中瀚首页</a> <a class="nav-item" href="" data-aos="fade-up">新闻资讯</a><br> <a class="nav-item" href="" data-aos="fade-up">全球认证</a> <a class="nav-item" href="" data-aos="fade-up">证书查询</a><br> <a class="nav-item" href="" data-aos="fade-up">测试栏目</a> <a class="nav-item" href="" data-aos="fade-up">中瀚之魂</a> </nav> </div> </div> <div class="row-1 qrcode"> <ul class="qrcode-list"> <li class="qrcode-item" data-aos="fade-up"> <img src="/public/imgs/common/qrcode.jpg" alt="公众号"> <p>公众号</p> </li> <li class="qrcode-item" data-aos="fade-up"> <img src="/public/imgs/common/qrcode.jpg" alt="微信号"> <p>微信号</p> </li> </ul> </div> <div class="row-1 contact"> <div class="contact-box"> <div class="tel-box" data-aos="fade-up"> <i class="icon iconfont icon-tell"></i> <a href="tel:18307674732" class="tel">18307674732</a> </div> <div class="contact-info"> <p data-aos="fade-up">深圳市中瀚检测有限公司</p> <p data-aos="fade-up">邮箱：<a href="mailto:holli-lee@foxmail.com">holli-lee@foxmail.com</a></p> <p data-aos="fade-up">地址：深圳市宝安区福海街道展城社区福园二路联和工业园B2栋5层</p> </div> </div> </div> </div> </div> <div class="copyright min-center"> Copyright © 深圳市中瀚检测有限公司 版权所有 <a class="cert" href="https://beian.miit.gov.cn/">备案号：粤ICP备2021177105号</a> </div> </footer>
+      <script src="/public/js/echarts.min.js"></script>
+      <script src="/public/js/world.js"></script>
+<script src="src/js/styles~about~certQuery~contact~index~news_list~product_list~product_view.js"></script><script src="src/js/vendors~about~certQuery~contact~index~news_list~product_list~product_view.js"></script><script src="src/js/index.js"></script></body>
+
+</html>
